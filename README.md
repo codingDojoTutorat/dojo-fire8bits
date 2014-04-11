@@ -1,4 +1,4 @@
-Coding dojo : randori : fire pixels
+Coding dojo : randori : fire pixels CLAUDEL VINCENT
 ===================================
 
 Fourni
