@@ -52,5 +52,17 @@ public class ImageGeneratorTest {
         Assert.assertArrayEquals(reference, whiteImage);
     }
     
+    @Test
+    public void generateGreyGradientImageTest() throws IOException{
+        //GIVEN
+        ImageGenerator generator = new ImageGenerator();
+        Color[][] reference = ImgUtils.fromImage(new File("src/test/resources/1.png"));
+        
+        //WHEN
+        Color[][] greyGradiantImage = generator.generateGreyGradientImage();
+        
+        //THEN
+        Assert.assertArrayEquals(reference, greyGradiantImage);
+    }
     
 }
